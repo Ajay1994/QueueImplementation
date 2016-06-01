@@ -85,7 +85,6 @@ public class LargestMultipleOfThree {
 		switch(sum % 3){
 			case 0:
 				Arrays.sort(array);
-				
 				break;
 			case 1:
 				if(queue1.size() == 0){
